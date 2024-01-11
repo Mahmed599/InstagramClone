@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 const FeedPosts = () => {
   const [isLoading,setIsLoading] = useState(true);
   useEffect(() => {
-    setTimeout(() => {setIsLoading(false)}, 500)
+    setTimeout(() => {setIsLoading(false)}, 1500)
   },[]);
   return (
     <Container maxW={"container.sm"} py={10}>
